@@ -1,3 +1,20 @@
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+function validaIdade(idade){
+    var validar = true;
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade")
+console.log(validaIdade(idade));
+
 
 /*
 var d = new Date();
